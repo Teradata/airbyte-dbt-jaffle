@@ -1,5 +1,13 @@
 version: 2
 
+sources:
+  - name: airbyte_jaffle_shop
+    description: These are the tables that our extraction software manages most likely through batch jobs. 
+    tables:
+      - name: _airbyte_raw_orders
+      - name: _airbyte_raw_customers
+      - name: _airbyte_raw_payments
+
 models:
   - name: stg_customers
     columns:
