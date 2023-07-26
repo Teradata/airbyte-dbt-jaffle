@@ -1,5 +1,7 @@
 Welcome to your new dbt project!
 
+### This dbt project is created using `dbt init`
+
 ### Using the starter project
 
 Try running the following commands:
