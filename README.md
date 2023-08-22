@@ -15,7 +15,7 @@ Follow the instructions provided in this [quickstart](https://quickstarts.terada
 This dbt project is created using `dbt init` and is named `dbt_airbyte_demo`. You can either reuse this same project and update the `Profiles.yml` file or you can follow below steps. For more details please refer Teradata quickstart guide [Transforming External Data Loaded via Airbyte in Teradata Vantage Using dbt](https://quickstarts.teradata.com/elt/transforming-external-data-loaded-via-airbyte-in-teradata-vantage-using-dbt.html#_install_dbt)
 1. Run `dbt init`, name your project and select Teradata as database. 
 2. Configure your `dbt_project.yml` file.
-3. Configure your database instance details in `Profile.yml` file present in `~./dbt` directory. If you don't have `Profile.yml` file, you can create one.
+3. Configure your database instance details in `Profile.yml` file present in `~/.dbt/` directory. If you don't have `Profile.yml` file, you can create one.
 4. Go to the project folder, here in this case `dbt_airbyte_demo` and run `dbt debug` to ensure profile setup is correct.
 5. Copy the models and schema.yml.
 
