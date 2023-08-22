@@ -8,6 +8,9 @@ This dbt project is a part of a hands-on demonstration of [Transforming External
    
 **Note: When you configure a Teradata destination in Airbyte, it will ask for a `Default Schema`. For this demonstration we have set the `Default Schema` as `airbyte_jaffle_shop`.**
 
+### Loading data from Google Sheets to Vantage instance using Airbyte
+Follow the instructions provided in this [quickstart](https://quickstarts.teradata.com/elt/use-airbyte-to-load-data-from-external-sources-to-teradata-vantage.html) to load data from Google Sheet to your Vantage Instance using Airbyte.
+
 ### Data Transformation with dbt
 This dbt project is created using `dbt init` and is named `dbt_airbyte_demo`. You can either reuse this same project and update the `Profiles.yml` file or you can follow below steps. For more details please refer Teradata quickstart guide [Transforming External Data Loaded via Airbyte in Teradata Vantage Using dbt](https://quickstarts.teradata.com/elt/transforming-external-data-loaded-via-airbyte-in-teradata-vantage-using-dbt.html#_install_dbt)
 1. Run `dbt init`, name your project and select Teradata as database. 
